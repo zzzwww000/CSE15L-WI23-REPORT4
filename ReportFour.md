@@ -54,11 +54,14 @@ ls <enter>
 ```
 
 ```
-[cs15lwi23alb@ieng6-202]:~:344$ git clone https://github.com/zzzwww000/CSE15L-LAB7.git
+[cs15lwi23alb@ieng6-202]:~:344$ git clone git@github.com:zzzwww000/CSE15L-LAB7.git
 Cloning into 'CSE15L-LAB7'...
-remote: Enumerating objects: 35, done.
-remote: Total 35 (delta 0), reused 0 (delta 0), pack-reused 35
-Receiving objects: 100% (35/35), 372.19 KiB | 1.44 MiB/s, done.
+Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 42 (delta 0), reused 4 (delta 0), pack-reused 36
+Receiving objects: 100% (42/42), 374.69 KiB | 1.39 MiB/s, done.
 Resolving deltas: 100% (12/12), done.
 [cs15lwi23alb@ieng6-202]:~:345$ ls
 CSE15L-LAB7  perl5
@@ -141,14 +144,16 @@ See screenshot:
 ## **Step 9**
 Get those remote changes pushed to github page of my original contents
 
-> Following commands will be useful: `git add`, `git commit -m`
+> Following commands will be useful: `git add`, `git commit -m`, `git push`
 
 Keys typed:
 ```
 git add .(current directory) <enter>
-git commit -m "updated 2/26 bug fixes" <enter>
+git commit -m "final version 2/26 17:34" <enter>
+git push <enter>
 ```
 See Screenshot:
 
 ![9](https://user-images.githubusercontent.com/120359926/221464950-2ee10594-2eb3-4bb4-bb57-ddea29ef94d8.png)
+![10](https://user-images.githubusercontent.com/120359926/221695031-c7addcfa-4b59-43f7-9bcf-5a9ee1a101d0.png)
 
